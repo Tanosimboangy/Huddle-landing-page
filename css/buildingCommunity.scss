@@ -1,0 +1,44 @@
+.building_community {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    .title {
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        // font-family: Arial, Helvetica, sans-serif;
+        line-height: 32px;
+        color: hsl(192, 100%, 9%);
+        margin-bottom: 25px;
+    }
+    .btn {
+        background-color: hsl(322, 100%, 66%);
+        font-size: 16px;
+        line-height: 22px;
+        // font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        padding: 16px 32px;
+        border-radius: 24px;
+        display: inline-block;
+    }
+    .btn:hover {
+        box-shadow: 0 5px 4px rgb(198, 193, 193);
+    }
+}
+
+@media(min-width: 720px) {
+    .communication {
+        margin-bottom: 130px;
+        padding: 0;
+    }
+}
+
+@media(min-width: 1440px) {
+    .communication {
+        margin-bottom: 130px;
+        padding: 0;
+    }
+}

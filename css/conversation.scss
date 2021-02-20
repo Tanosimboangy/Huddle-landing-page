@@ -1,0 +1,64 @@
+.conversation {
+    margin-bottom: 100px;
+    padding: 16px;
+    .conversation_image {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .conversation_details {
+        .title {
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            // font-family: Arial, Helvetica, sans-serif;
+            line-height: 32px;
+            color: hsl(192, 100%, 9%);
+            margin-bottom: 25px;
+        }
+        .text {
+            text-align: center;
+            font-size: 16;
+            // font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+            line-height: 22px;
+            color: hsl(192, 100%, 9%);
+        }
+    }
+}
+
+@media(min-width: 720px) {
+    .conversation {
+        max-width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+        padding: 0;
+        .conversation_image {
+            max-width: 460px;
+            margin-right: auto;
+            margin-bottom: 0;
+        }
+        .conversation_details {
+            max-width: 500px;
+            margin-left: auto;
+            .title {
+                text-align: left;
+            }
+            .text {
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media(min-width: 1440px) {
+    .conversation {
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 100px;
+        padding: 0;
+    }
+}
