@@ -44,24 +44,21 @@ body button {
   padding-top: 20px;
   margin-bottom: 100px;
 }
-.header .header_icon {
+.header a .logo {
   width: 180px;
 }
-.header .header_tryButton {
+.header .try_btn {
   border: 1px solid #ff52bf;
-  outline: none;
-  cursor: pointer;
   border-radius: 26px;
   padding: 10px 26px;
   background-color: white;
   color: #ff52bf;
   font-size: 16px;
   font-weight: normal;
-  white-space: nowrap;
 }
-.header .header_tryButton:hover,
-.header .header_tryButton:active,
-.header .header_tryButton:host {
+.header .try_btn:hover,
+.header .try_btn:active,
+.header .try_btn:host {
   box-shadow: 0 0 2px #ff52bf;
 }
 
@@ -91,7 +88,7 @@ body button {
   align-items: center;
   margin-bottom: 100px;
 }
-.masthead .masthead_header {
+.masthead .masthead_title {
   text-align: center;
   font-size: 30px;
   line-height: 36px;
@@ -107,8 +104,7 @@ body button {
   color: #00252e;
   margin-bottom: 30px;
 }
-.masthead .masthead_startedButton {
-  white-space: nowrap;
+.masthead .masthead_btn {
   background-color: #ff52bf;
   font-size: 16px;
   font-weight: bold;
@@ -142,13 +138,14 @@ body button {
 }
 .communication {
   display: block;
-}
-.communication .communication_image {
-  width: 100%;
   margin-bottom: 100px;
 }
+.communication .screen-mockups {
+  width: 100%;
+  margin-bottom: 50px;
+}
 .communication .communication_container .communities .communities_container {
-  max-width: 80%;
+  max-width: 212px;
   margin: auto;
   margin-bottom: 50px;
 }
@@ -157,20 +154,58 @@ body button {
 }
 .communication .communication_container .communities .communities_container span {
   font-size: 80px;
+  line-height: 86px;
   font-weight: bold;
   color: #00252e;
+}
+@media (max-width: 250px) {
+  .communication .communication_container .communities .communities_container span {
+    font-size: 50px;
+  }
+}
+.communication .communication_container .communities .communities_container p {
+  font-size: 16;
+  font-weight: normal;
+  color: #134856;
+}
+.communication .communication_container .messages .messages_container {
+  max-width: 212px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.communication .communication_container .messages .messages_container img {
+  margin-bottom: 10px;
+}
+.communication .communication_container .messages .messages_container span {
+  font-size: 80px;
+  line-height: 86px;
+  font-weight: bold;
+  color: #00252e;
+}
+@media (max-width: 250px) {
+  .communication .communication_container .messages .messages_container span {
+    font-size: 50px;
+  }
 }
 
 @media (min-width: 720px) {
   .communication {
     max-width: 70%;
     margin: auto;
+    margin-bottom: 100px;
+  }
+  .communication .communication_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 @media (min-width: 1340px) {
   .communication {
     max-width: 50%;
     margin: auto;
+    margin-bottom: 100px;
   }
 }
 

@@ -1,14 +1,14 @@
 .communication {
     display: block;
-    .communication_image {
+    margin-bottom: 100px;
+    .screen-mockups {
         width: 100%;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     .communication_container {
-        // display: block;
         .communities {
             .communities_container {
-                max-width: 80%;
+                max-width: 212px;
                 margin: auto;
                 margin-bottom: 50px;
                 img {
@@ -17,8 +17,38 @@
                 span {
                     // font-family: Arial, Helvetica, sans-serif;
                     font-size: 80px;
+                    line-height: 86px;
                     font-weight: bold;
                     color: #00252e;
+                    @media(max-width: 250px) {
+                        font-size: 50px;
+                    }
+                }
+                p {
+                    // font-family: Arial, Helvetica, sans-serif;
+                    font-size: 16;
+                    font-weight: normal;
+                    color: #134856;
+                }
+            }
+        }
+        .messages {
+            .messages_container {
+                max-width: 212px;
+                margin: auto;
+                margin-bottom: 50px;
+                img {
+                    margin-bottom: 10px;
+                }
+                span {
+                    // font-family: Arial, Helvetica, sans-serif;
+                    font-size: 80px;
+                    line-height: 86px;
+                    font-weight: bold;
+                    color: #00252e;
+                    @media(max-width: 250px) {
+                        font-size: 50px;
+                    }
                 }
             }
         }
@@ -29,6 +59,13 @@
     .communication {
         max-width: 70%;
         margin: auto;
+        margin-bottom: 100px;
+        .communication_container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
     }
 }
 
@@ -36,5 +73,6 @@
     .communication {
         max-width: 50%;
         margin: auto;
+        margin-bottom: 100px;
     }
 }
