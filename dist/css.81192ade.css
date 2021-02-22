@@ -68,6 +68,7 @@ body button {
     margin: auto;
     margin-bottom: 100px;
     padding: 0;
+    padding-top: 16px;
   }
   .header .header_icon {
     width: 200px;
@@ -116,7 +117,7 @@ body button {
   border-radius: 24px;
   display: inline-block;
 }
-.masthead .masthead_startedButton:hover {
+.masthead .masthead_btn:hover {
   box-shadow: 0 5px 4px #c6c1c1;
 }
 
@@ -463,6 +464,7 @@ body button {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 .footer .container .newsletter .form .form_input {
   padding: 16px;
@@ -494,17 +496,39 @@ body button {
   background-color: #ff52bf;
   border-radius: 5px;
 }
-@media (min-width: 720px) {
+.footer .container .contact .footer_logo {
+  margin-bottom: 20px;
+}
+.footer .container .contact p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #f5faff;
+  margin-bottom: 20px;
+  max-width: 350px;
+}
+.footer .container .contact .phone {
+  margin-bottom: 20px;
+}
+.footer .container .contact .email {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 800px) {
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
   .footer .container {
     display: flex;
     flex-direction: row-reverse;
     align-items: baseline;
+    justify-content: space-between;
     max-width: 80%;
     margin: auto;
-    padding: 0;
   }
 }
-@media (min-width: 720px) and (max-width: 264px) {
+@media (min-width: 800px) and (max-width: 264px) {
   .footer .container .newsletter .form .form_input {
     width: 100%;
   }
