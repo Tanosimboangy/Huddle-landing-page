@@ -42,7 +42,7 @@ body button {
   flex-wrap: wrap;
   padding-top: 20px;
   margin-bottom: 100px;
-  padding: 16px;
+  padding: 40px 16px;
 }
 .header a .logo {
   width: 180px;
