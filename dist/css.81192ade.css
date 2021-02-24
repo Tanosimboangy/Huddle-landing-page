@@ -40,7 +40,7 @@ body button {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-top: 20px;
+  padding-top: 32px;
   margin-bottom: 100px;
   padding: 40px 16px;
 }
@@ -68,7 +68,7 @@ body button {
     margin: auto;
     margin-bottom: 100px;
     padding: 0;
-    padding-top: 16px;
+    padding-top: 32px;
   }
   .header .header_icon {
     width: 200px;
@@ -306,14 +306,14 @@ body button {
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 100px;
     padding: 0;
   }
   .conversation .conversation_image {
     max-width: 460px;
-    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 0;
   }
   .conversation .conversation_details {
@@ -436,10 +436,10 @@ body button {
   }
 }
 .footer {
-  padding-top: 70px;
   padding-right: 16px;
   padding-left: 16px;
   background-color: black;
+  padding-top: 70px;
 }
 .footer .container .newsletter {
   margin-bottom: 50px;
@@ -522,7 +522,6 @@ body button {
   .footer .container {
     display: flex;
     flex-direction: row-reverse;
-    align-items: baseline;
     justify-content: space-between;
     max-width: 80%;
     margin: auto;

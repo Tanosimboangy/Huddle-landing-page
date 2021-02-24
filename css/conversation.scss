@@ -32,13 +32,13 @@
         margin: auto;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
+        justify-content: space-between;
         margin-bottom: 100px;
         padding: 0;
         .conversation_image {
             max-width: 460px;
-            margin-right: auto;
+            margin-left: auto;
             margin-bottom: 0;
         }
         .conversation_details {
