@@ -281,7 +281,7 @@ body button {
     margin-bottom: 0;
   }
   .growTogether .growTogether_details {
-    max-width: 500px;
+    max-width: 490px;
     margin-right: auto;
   }
   .growTogether .growTogether_details .title {
@@ -342,7 +342,7 @@ body button {
     margin-bottom: 0;
   }
   .conversation .conversation_details {
-    max-width: 500px;
+    max-width: 490px;
     margin-left: auto;
   }
   .conversation .conversation_details .title {
@@ -403,7 +403,7 @@ body button {
     margin-bottom: 0;
   }
   .users .users_details {
-    max-width: 500px;
+    max-width: 490px;
     margin-right: auto;
   }
   .users .users_details .title {
