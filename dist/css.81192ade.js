@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"C:\\Users\\Jaccquit\\code\\iwt3-huddle-landing-page\\fonts\\OpenSans-Bold.woff2":[["OpenSans-Bold.e2e672bd.woff2","fonts/OpenSans-Bold.woff2"],"fonts/OpenSans-Bold.woff2"],"C:\\Users\\Jaccquit\\code\\iwt3-huddle-landing-page\\fonts\\OpenSans-Bold.woff":[["OpenSans-Bold.ef4dedc9.woff","fonts/OpenSans-Bold.woff"],"fonts/OpenSans-Bold.woff"],"C:\\Users\\Jaccquit\\code\\iwt3-huddle-landing-page\\fonts\\OpenSans-Regular.woff2":[["OpenSans-Regular.dfa32dce.woff2","fonts/OpenSans-Regular.woff2"],"fonts/OpenSans-Regular.woff2"],"C:\\Users\\Jaccquit\\code\\iwt3-huddle-landing-page\\fonts\\OpenSans-Regular.woff":[["OpenSans-Regular.5d698a25.woff","fonts/OpenSans-Regular.woff"],"fonts/OpenSans-Regular.woff"],"C:\\Users\\Jaccquit\\code\\iwt3-huddle-landing-page\\fonts\\OpenSans-SemiBold.woff2":[["OpenSans-SemiBold.d6de5e7d.woff2","fonts/OpenSans-SemiBold.woff2"],"fonts/OpenSans-SemiBold.woff2"],"C:\\Users\\Jaccquit\\code\\iwt3-huddle-landing-page\\fonts\\OpenSans-SemiBold.woff":[["OpenSans-SemiBold.6bea6f8c.woff","fonts/OpenSans-SemiBold.woff"],"fonts/OpenSans-SemiBold.woff"],"C:\\Users\\Jaccquit\\code\\iwt3-huddle-landing-page\\fonts\\Poppins-Bold.woff2":[["Poppins-Bold.2749a141.woff2","fonts/Poppins-Bold.woff2"],"fonts/Poppins-Bold.woff2"],"C:\\Users\\Jaccquit\\code\\iwt3-huddle-landing-page\\fonts\\Poppins-Bold.woff":[["Poppins-Bold.862ba13a.woff","fonts/Poppins-Bold.woff"],"fonts/Poppins-Bold.woff"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65325" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60677" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

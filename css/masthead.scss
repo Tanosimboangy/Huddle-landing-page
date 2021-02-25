@@ -6,8 +6,8 @@
     padding: 16px;
     .masthead_title {
         text-align: center;
-        font-size: 30px;
-        // font-family: Arial, Helvetica, sans-serif;
+        font-size: 29px;
+        font-family: "Poppins-Bold";
         line-height: 36px;
         font-weight: bold;
         color: hsl(192, 100%, 9%);
@@ -15,9 +15,9 @@
     }
     .masthead_text {
         text-align: center;
-        // font-family: Arial, Helvetica, sans-serif;
+        font-family: "OpenSans-Regular";
         font-weight: normal;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 22px;
         color: hsl(192, 100%, 9%);
         margin-bottom: 30px;
@@ -27,7 +27,7 @@
         font-size: 16px;
         font-weight: bold;
         line-height: 22px;
-        // font-family: Arial, Helvetica, sans-serif;
+        font-family: "OpenSans-Regular";
         color: white;
         padding: 16px 32px;
         border-radius: 24px;

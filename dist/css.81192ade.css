@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: local(OpenSans-Bold), url(/OpenSans-Bold.e2e672bd.woff2) format("woff2"), url(/OpenSans-Bold.ef4dedc9.woff) format("woff");
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: local(OpenSans-Regular), url(/OpenSans-Regular.dfa32dce.woff2) format("woff2"), url(/OpenSans-Regular.5d698a25.woff) format("woff");
+}
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: local(OpenSans-SemiBold), url(/OpenSans-SemiBold.d6de5e7d.woff2) format("woff2"), url(/OpenSans-SemiBold.6bea6f8c.woff) format("woff");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: local(Poppins-Bold), url(/Poppins-Bold.2749a141.woff2) format("woff2"), url(/Poppins-Bold.862ba13a.woff) format("woff");
+}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -93,7 +109,8 @@ body button {
 }
 .masthead .masthead_title {
   text-align: center;
-  font-size: 30px;
+  font-size: 29px;
+  font-family: "Poppins-Bold";
   line-height: 36px;
   font-weight: bold;
   color: #00252e;
@@ -101,8 +118,9 @@ body button {
 }
 .masthead .masthead_text {
   text-align: center;
+  font-family: "OpenSans-Regular";
   font-weight: normal;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 22px;
   color: #00252e;
   margin-bottom: 30px;
@@ -112,6 +130,7 @@ body button {
   font-size: 16px;
   font-weight: bold;
   line-height: 22px;
+  font-family: "OpenSans-Regular";
   color: white;
   padding: 16px 32px;
   border-radius: 24px;
@@ -160,6 +179,7 @@ body button {
   margin-bottom: 10px;
 }
 .communication .communication_container .communities .communities_container span {
+  font-family: "OpenSans-Regular";
   font-size: 80px;
   line-height: 86px;
   font-weight: bold;
@@ -171,7 +191,8 @@ body button {
   }
 }
 .communication .communication_container .communities .communities_container p {
-  font-size: 16;
+  font-family: "OpenSans-Regular";
+  font-size: 16px;
   font-weight: normal;
   color: #134856;
 }
@@ -227,6 +248,7 @@ body button {
 }
 .growTogether .growTogether_details .title {
   text-align: center;
+  font-family: "Poppins-Bold";
   font-size: 26px;
   font-weight: bold;
   line-height: 32px;
@@ -235,7 +257,8 @@ body button {
 }
 .growTogether .growTogether_details .text {
   text-align: center;
-  font-size: 16;
+  font-family: "OpenSans-Regular";
+  font-size: 15px;
   font-weight: normal;
   line-height: 22px;
   color: #00252e;
@@ -288,13 +311,15 @@ body button {
   text-align: center;
   font-size: 26px;
   font-weight: bold;
+  font-family: "Poppins-Bold";
   line-height: 32px;
   color: #00252e;
   margin-bottom: 25px;
 }
 .conversation .conversation_details .text {
   text-align: center;
-  font-size: 16;
+  font-size: 15px;
+  font-family: "OpenSans-Regular";
   font-weight: normal;
   line-height: 22px;
   color: #00252e;
@@ -345,6 +370,7 @@ body button {
 }
 .users .users_details .title {
   text-align: center;
+  font-family: "Poppins-Bold";
   font-size: 26px;
   font-weight: bold;
   line-height: 32px;
@@ -353,7 +379,8 @@ body button {
 }
 .users .users_details .text {
   text-align: center;
-  font-size: 16;
+  font-family: "OpenSans-Regular";
+  font-size: 15px;
   font-weight: normal;
   line-height: 22px;
   color: #00252e;
@@ -403,9 +430,10 @@ body button {
 }
 .building_community .title {
   text-align: center;
-  font-size: 26px;
+  font-size: 29px;
   font-weight: bold;
-  line-height: 32px;
+  font-family: "Poppins-Bold";
+  line-height: 35px;
   color: #00252e;
   margin-bottom: 25px;
 }
@@ -413,6 +441,7 @@ body button {
   background-color: #ff52bf;
   font-size: 16px;
   line-height: 22px;
+  font-family: "OpenSans-Bold";
   font-weight: bold;
   color: white;
   padding: 16px 32px;
@@ -449,13 +478,15 @@ body button {
   font-weight: normal;
   line-height: 32px;
   text-transform: uppercase;
+  font-family: "Poppins-Bold";
   color: #f5faff;
   margin-bottom: 20px;
 }
 .footer .container .newsletter p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: normal;
   line-height: 22px;
+  font-family: "OpenSans-Regular";
   color: #f5faff;
   margin-bottom: 20px;
   max-width: 360px;
@@ -476,6 +507,7 @@ body button {
   font-size: 16px;
   font-weight: normal;
   line-height: 22px;
+  font-family: "OpenSans-SemiBold";
   color: #00252e;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -488,30 +520,55 @@ body button {
 .footer .container .newsletter .form .form_btn {
   margin-bottom: 10px;
   padding: 16px 30px;
-  border: none;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 22px;
   color: white;
   background-color: #ff52bf;
   border-radius: 5px;
+  background-color: #ff52bf;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "OpenSans-Bold";
+  font-weight: bold;
+  display: inline-block;
 }
 .footer .container .contact .footer_logo {
   margin-bottom: 20px;
 }
 .footer .container .contact p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: normal;
   line-height: 22px;
+  font-family: "OpenSans-Regular";
   color: #f5faff;
   margin-bottom: 20px;
   max-width: 350px;
 }
 .footer .container .contact .phone {
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .container .contact .phone span {
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 22px;
+  font-family: "OpenSans-Regular";
+  margin-left: 16px;
 }
 .footer .container .contact .email {
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .container .contact .email span {
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 22px;
+  font-family: "OpenSans-Regular";
+  margin-left: 16px;
 }
 
 @media (min-width: 800px) {
