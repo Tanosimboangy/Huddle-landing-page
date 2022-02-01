@@ -28,6 +28,13 @@
     }
 }
 
+@media(max-width: 400px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
 @media(min-width: 720px) {
     .header {
         max-width: 90%;
